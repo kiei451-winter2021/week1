@@ -22,12 +22,11 @@
     <h3 class="my-4 text-xl font-bold">Creating a Repository</h3>
     <p class="my-4">The first step to using Git and GitHub is creating a Git repository. The basic process is as follows:</p>
     <ol class="list-inside list-decimal">
-      <li>Create a folder/directory where the code will be stored. We'll want a different folder for each code repository we create. It's highly recommended that we simply create a "code folder" on our computer – where all our code will be stored – then create sub-folders underneath, where each sub-folder is a different code project.</li>
-      <li>Open the folder using VSCode. We can either drag-and-drop the folder to the VSCode icon in the start menu/dock, or use File -> Open Folder (Windows) or File -> Open (Mac).</li>
-      <li>Click the "Source Control" icon in the left-hand sidebar. That's the one that looks like: <img class="inline w-6" src="sc-icon.png"></li>
-      <li>Click "Publish to GitHub". The first time we do this, we'll be asked to authenticate with GitHub. Complete the process and return to VSCode.</li>
-      <li>If asked which files to publish, accept the defaults (which should be all files), and hit "OK".</li>
-      <li>Select "Publish to GitHub public repository".</li>
+      <li>Go to GitHub.com, make sure you're logged-in.</li>
+      <li>Click the "New" button next to "Repositories", or from the "plus sign" in the top-right.</li>
+      <li>Give your repository a name, keep it public, and click "New Repository".</li>
+      <li>You should see the initial "quick setup" page.</li>
+      <li>In VSCode, clone the repository the same way we cloned the in-class repository – start with a blank VSCode window, "Clone Repository" -> "Clone from GitHub", and select your main code directory as the location.</li>
     </ol>
     <p class="my-4">Once the repository is created, Git is always watching. If it detects that anything has changed
     in our repository folder, we'll see those changes in VSCode. We can then repeat the commit-and-push sequence to commit those changes and send them to GitHub.</p>
@@ -59,7 +58,7 @@
     <ol class="list-decimal list-inside">
       <li>Open a new, blank VSCode window. File -> New Window is the easiest way. Click the Source Control (SCM) in left-hand sidebar.</li>
       <li>"Clone Repository"</li>
-      <li>Enter GitHub repository URL, e.g. https://github.com/eng/hello-html</li>
+      <li>"Clone from GitHub" should give you a list of options from your GitHub account. Alternatively, enter GitHub repository URL, e.g. https://github.com/eng/hello-html</li>
       <li>Select a folder – find our "code" folder and "Select Repository Location" - this will create a new subfolder with all the
       code from the repository</li>
       <li>Would you like to open the cloned repository? <em>Yes, yes we would.</em> Select "Open"</li>
@@ -70,10 +69,10 @@
     <h3 class="my-4 text-xl font-bold">Building a simple profile page</h3>
     <p class="my-4">On to the actual lab for week 1:</p>
     <ol class="list-decimal list-inside">
-      <li>Create a brand-new folder inside your code folder. Name the folder <span class="bg-orange-100 text-red-400 font-mono p-1">hello-world</span> and open it in VSCode.</li>
+      <li>Create a new repository at GitHub.com. Call it <span class="bg-orange-100 text-red-400 font-mono p-1">hello-world</span>, clone and open it in VSCode.</li>
       <li>Create a new file named <span class="bg-orange-100 text-red-400 font-mono p-1">index.html</span>.</li>
       <li>Build a profile page (i.e. "about me" page or resume) using properly-formed HTML. Make it your own – include images, link to social media accounts, or whatever you like. Use the provided HTML cheatsheet to get an idea of some of the basic HTML elements and how to use them.</li>
-      <li>Click the "Source Control" icon in the left-hand sidebar and publish the folder to GitHub.</li>
+      <li>Click the "Source Control" icon in the left-hand sidebar and commit and push the changes to GitHub.</li>
       <li>Go to GitHub.com and verify that your code is there and publicly accessible (protip: use "Incognito Mode" to give it a quick test).</li>
       <li>Make changes to the page and commit and push again – make sure you're comfortable with this cycle, as we'll be doing this a lot this quarter.</li>
     </ol>
